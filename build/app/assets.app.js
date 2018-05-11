@@ -33026,7 +33026,7 @@ local.stateInit({
             "npm_package_homepage": "https://github.com/kaizhu256/node-web-crawler-lite",
             "npm_package_name": "web-crawler-lite",
             "npm_package_nameLib": "web_crawler_lite",
-            "npm_package_version": "0.0.1"
+            "npm_package_version": "2018.5.11"
         }
     }
 });
@@ -33314,7 +33314,7 @@ this script will run a web-demo of web-crawler-lite
 instruction
     1. save this script as example.js
     2. run the shell command:
-        $ npm install web-crawler-lite && PORT=8081 node example.js
+        $ npm install kaizhu256/node-web-crawler-lite#alpha && PORT=8081 node example.js
     3. open a browser to http://127.0.0.1:8081 and play with the web-demo
     4. edit this script to suit your needs
 */
