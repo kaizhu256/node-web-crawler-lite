@@ -1,1 +1,37 @@
-{     "devDependencies": {         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"web-crawler-lite",     "homepage": "https://github.com/kaizhu256/node-web-crawler-lite",     "repository": {         "type": "git",         "url": "https://github.com/kaizhu256/node-web-crawler-lite.git"     },     "scripts": {         "build-ci": "utility2 shBuildCi"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "the greatest app in the world!",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/kaizhu256/node-web-crawler-lite",
+    "keywords": [],
+    "license": "MIT",
+    "main": "lib.web_crawler_lite.js",
+    "name": "web-crawler-lite",
+    "nameAliasPublish": "",
+    "nameLib": "web_crawler_lite",
+    "nameOriginal": "web-crawler-lite",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kaizhu256/node-web-crawler-lite.git"
+    },
+    "scripts": {
+        "build-ci": "./npm_scripts.sh",
+        "eval": "./npm_scripts.sh",
+        "heroku-postbuild": "./npm_scripts.sh",
+        "postinstall": "./npm_scripts.sh",
+        "start": "./npm_scripts.sh",
+        "test": "./npm_scripts.sh",
+        "utility2": "./npm_scripts.sh"
+    },
+    "version": "2018.5.11"
+}
