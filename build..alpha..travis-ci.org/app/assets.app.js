@@ -33026,7 +33026,7 @@ local.stateInit({
             "npm_package_homepage": "https://github.com/kaizhu256/node-web-crawler-lite",
             "npm_package_name": "web-crawler-lite",
             "npm_package_nameLib": "web_crawler_lite",
-            "npm_package_version": "2018.5.11"
+            "npm_package_version": "0.0.1"
         }
     }
 });
